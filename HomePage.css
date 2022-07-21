@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+/* subscribe */
+#Subscribe>img{
+    width: 7%;
+    margin-left: 20px;
+    position: fixed;
+    margin-top: 550px;
 }
 /* Navigation 1 */
 
@@ -48,9 +56,12 @@ align-items: center;
     height: 90px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     align-items: center;
-    position: fixed;
+    position:fixed;
+    
     background-color: white;
 }
+
+
 #Navigation2>div{
    display: flex;
    margin-left: 25px;
@@ -79,6 +90,11 @@ align-items: center;
     font-size: 13px;
     margin-left: 8px;
     margin-top: 3px;
+    cursor: pointer;
+}
+#Navigation2>div:nth-child(5)>p>a{
+    text-decoration: none;
+    color: black;
 }
 #Navigation2>div:nth-child(6)>p{
     font-size: 13px;
@@ -99,6 +115,7 @@ width: 100%;
    height: auto;
    margin: auto;
    margin-top: 50px;
+   
 }
 #categories>div{
     display: grid;
@@ -189,4 +206,57 @@ width: 100%;
     margin-bottom: 80px;
     
 }
+/* check out our blog */
+#blog{
+    width: 75%;
+    height: auto;
+    
+    margin: auto;
+}
+#blog>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+}
+#blog>div:nth-child(1)>h1{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    line-height: 24px;
+    color: #4a4a4a;
+}
+#blog>div:nth-child(1)>p{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+    color: #d11243; 
+}
+#blog>div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+    gap: 10px;
+}
+#blog>div:nth-child(2)>div{
+    
+    margin-top:15px;
+}
+#blog>div:nth-child(2)>div>img{
+   width: 100%;
+   border-radius: 7px;
+}
+#blog>div:nth-child(2)>div>h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    line-height: 36px;
+    color: #4a4a4a;
+    text-align: justify;
+}
+/* info2 */
+#info2>img{
+   margin-left: 190px;
+   margin-top: 20px;
+}
+
  
